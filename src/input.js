@@ -15,11 +15,11 @@ export class InputHandler {
         switch(e.code) {
             case 'ArrowLeft':
             case 'KeyA':
-                this.keys.left = isPressed;
+                this.keys.right = isPressed;
                 break;
             case 'ArrowRight':
             case 'KeyD':
-                this.keys.right = isPressed;
+                this.keys.left = isPressed;
                 break;
             case 'ArrowUp':
             case 'KeyW':
